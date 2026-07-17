@@ -1,0 +1,8 @@
+DocuExtract AI
+© 2026 XsolAI. All rights reserved.
+Created by Ahsan Inam.
+
+This public repository is a frontend-only product demonstration. All documents,
+extracted fields, confidence scores, users, integrations, billing records, and
+operational data are simulated. No backend implementation or private project
+identifier is included.
