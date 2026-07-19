@@ -28,7 +28,7 @@ export const fields:ExtractedField[]=[
 export const plans:PricingPlan[]=[
  {id:'starter',name:'Starter',monthly:39,annual:31,description:'For focused document workflows.',features:['2,500 pages / month','Invoice and receipt templates','CSV and JSON export','Email support']},
  {id:'growth',name:'Growth',monthly:99,annual:79,description:'For growing operations teams.',features:['10,000 pages / month','Custom extraction templates','Review queue and analytics','Team workspace'],popular:true},
- {id:'scale',name:'Scale',monthly:249,annual:199,description:'For high-volume simulated processing.',features:['50,000 pages / month','Unlimited templates','Priority review workflows','Advanced export controls']},
+ {id:'scale',name:'Scale',monthly:249,annual:199,description:'For high-volume document processing.',features:['50,000 pages / month','Unlimited templates','Priority review workflows','Advanced export controls']},
 ];
 export const activity:Activity[]=documents.map((d,i)=>({time:['10:21 AM','10:18 AM','9:57 AM','9:41 AM','9:30 AM'][i],document:d.name,type:d.type,status:d.status,confidence:d.confidence,user:i<2?'Alex Morgan':'Jamie Lee'}));
 export const volume=[15,12,17,9,7,10,6,12,8,9,13,17,20,14,32,28,26,14,30,16,36,31,28,17,13,18,15,21,25,19,20,12,11];
