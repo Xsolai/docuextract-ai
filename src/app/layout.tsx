@@ -3,7 +3,7 @@ import Script from 'next/script';
 import './globals.css';
 import { DemoProvider } from '@/lib/store';
 
-const site = 'https://docuextract-ai.vercel.app';
+const site = 'https://docuextract.xsol.ai';
 const company = 'https://xsolai.com';
 
 export const metadata: Metadata = {
