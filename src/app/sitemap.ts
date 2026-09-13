@@ -1,1 +1,10 @@
-import type{MetadataRoute}from'next';export default function sitemap():MetadataRoute.Sitemap{return[{url:'https://xsolai-docuextract-ai.vercel.app',lastModified:new Date(),changeFrequency:'monthly',priority:1},{url:'https://xsolai-docuextract-ai.vercel.app/pricing',lastModified:new Date(),changeFrequency:'monthly',priority:.8}]}
+import type { MetadataRoute } from 'next';
+
+const site = 'https://docuextract-ai.vercel.app';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    { url: site, lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },
+    { url: `${site}/pricing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+  ];
+}
